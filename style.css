@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:ital@1&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0px 40px 0px;
+  border-bottom: 1px solid #fff;
+  width: 1180px;
+  margin: auto;
+}
+.navbar li {
+  float: left;
+  list-style-type: none;
+  padding: 12px 20px;
+}
+.navbar li a {
+  padding: 5px 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+}
+.ul-1 {
+  padding-right: 90px;
+}
+.ul-2 {
+  padding-left: 90px;
+}
+.bg-img {
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-image: url("home_lab_slider.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: inherit;
+  z-index: 20;
+}
+.content1 img {
+  width: 1200px;
+  position: relative;
+  margin-left: 175px;
+  margin-top: 250px;
+}
+.content2 h2 {
+  display: grid;
+  place-items: center;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+.content3 h1 {
+  display: inline-block;
+  width: 105px;
+  color: #400d95;
+  padding: 110px 0px 0px 180px;
+}
+.small-img {
+  display: inline-flex;
+  padding: 110px 0px 0px 150px;
+  position: absolute;
+}
+.small-img div {
+  padding: 0px 50px 0px 50px;
+}
+.small-img img {
+  padding-bottom: 15px;
+}
+.small-img h4 {
+  color: #400d95;
+}
+.content4 {
+  padding-bottom: 100px;
+}
+.content4 h1 {
+  color: #5c5b5b;
+  display: grid;
+  place-items: center;
+  padding: 40px 0px 40px 0px;
+}
+.content5 {
+  display: inline-block;
+}
+.content5 p {
+  width: 386px;
+  color: #5c5b5b;
+  display: inline-block;
+  padding-left: 480px;
+  padding-bottom: 15px;
+}
+.content6 {
+  display: inline-block;
+}
+.content6 p {
+  width: 394px;
+  color: #5c5b5b;
+  display: inline-block;
+  padding-left: 20px;
+  padding-bottom: 36px;
+  position: relative;
+}
+.content8 {
+  border-bottom: 1px solid #7f7d7d;
+  border-top: 1.5px solid #7f7d7d;
+  width: 1380px;
+  margin: auto;
+  background-color: #ebebeb;
+}
+.content8 h1 {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0px 50px 0px;
+  color: #400d95;
+}
+.big-img {
+  display: flex;
+  padding: 0px 75px 100px 75px;
+  position: relative;
+  background-color: #ebebeb;
+}
+.big-img div {
+  padding: 0px 15px 0px 15px;
+}
+.big-img img {
+  padding-bottom: 15px;
+}
+.big-img h4 {
+  width: 182px;
+  margin: auto;
+  /* font-size: larger; */
+  font-weight: 500;
+  border-bottom: 3px solid #400d95;
+  padding-bottom: 18px;
+}
+.content9 {
+  display: inline-block;
+}
+.content10 h1 {
+  width: 245px;
+  color: #400d95;
+  padding: 110px 0px 0px 175px;
+}
+.content11 h1 {
+  font-size: 25px;
+  width: 667px;
+  position: absolute;
+  margin: -163px 0px 0px 482px;
+}
+.content9 button {
+  background-color: #400d95;
+  padding: 10px 35px 10px 35px;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 7px;
+  border: 1px solid #400d95;
+  margin: 0px 0px 130px 475px;
+}
+.content4-1 {
+  padding-bottom: 10px;
+}
+.content12 img {
+  width: 93vw;
+  padding-left: 45px;
+  margin-bottom: 50px;
+}
+.content13 h1 {
+  width: 245px;
+  color: #400d95;
+  padding: 50px 0px 0px 175px;
+}
+.content13 h3 {
+  font-size: 20px;
+  font-weight: 400;
+  width: 392px;
+  position: absolute;
+  margin: -85px 0px 0px 575px;
+}
+.content13 h2 {
+  position: absolute;
+  margin: -85px 0px 0px 1020px;
+}
+.content13{
+  margin-bottom: 200px;
+}
+.content14 {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  background-color: #400d95;
+  padding: 50px 45px 45px 50px;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 900;
+  border: 1px solid #400d95;
+  letter-spacing: 20px;
+}
+.content14:hover{
+background-color: blueviolet;
+}
+.footer-img{
+  margin: 70px 0px 40px 0px;
+  display: flex;
+  justify-content: center;
+}
+.footer-img img{
+  width: 3vw;
+}
+.footer-data{
+  display: flex;
+  justify-content: center;
+}
+.footer-data h5 {
+  font-size: medium;
+  color: #999999;
+  padding: 0px 0px 60px 0px;
+}
